@@ -1,11 +1,14 @@
+
+/**
+ *
  * @author Gabriel Ferreira - Rafael Sampaio
  */
 public abstract class Mercados {
 
-    private String nomemercado;
-    private int IDMercado;
-    private String funcionarios;
-    private String endereco;
+    protected String nomemercado;
+    protected int IDMercado;
+    protected String funcionarios;
+    protected String endereco;
 
     public void setnomeMercado(String nome) {
         this.nomemercado = nome;
